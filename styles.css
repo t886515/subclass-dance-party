@@ -20,17 +20,37 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
+
+/*.dancer{
+  border:30px solid blue;
+  border-color: '#E6B0AA';
+  border-radius:20px;
+  position:absolute;
+}*/
 .dancer{
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 100px solid red;
-  position: relative;
+  width: 60px;
+  height: 60px;
+  border:30px;
+  border-radius:30px;
+  box-shadow: 15px 15px 0 0 yellow;
+  position:absolute;
 }
 
-.tester{
-  border:10px solid blue;
-  border-radius:10px;
+.test{
+  border:25px solid blue;
+  border-color: '#E6B0AA';
+  border-radius:100px;
   position:absolute;
+}
+
+/*#moon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 red;
+}*/
+.img{
+    background-image:url('zeus.jpg');
+    background-repeat:no-repeat;
+    background-position:right bottom;
 }

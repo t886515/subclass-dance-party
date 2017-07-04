@@ -1,6 +1,6 @@
 var randomDancer = function(top, left, timeBewteenSteps) {
   makeDancer.call(this, top, left, timeBewteenSteps);
-  this.$node = $('<span class="test" id="moon"></span>');
+  this.$node = $('<span class="test"></span>');
   this.animateDiv();
   //this.changeColor();
 };
@@ -12,6 +12,7 @@ randomDancer.prototype.step = function() {
   makeDancer.prototype.step.call(this);
   
   //this.$node.fadeToggle();
+  
   this.$node.css('border-color', this.pickColor());
 };
 

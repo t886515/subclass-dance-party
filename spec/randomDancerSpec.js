@@ -14,7 +14,7 @@ describe('someRandomDancer', function() {
 
   it('should have nodes that moves around randomly', function() {
     sinon.spy(someRandomDancer.$node, 'animate');
-    someRandomDancer.step();
+    someRandomDancer.animateDiv();
     expect(someRandomDancer.$node.animate.called).to.be.true;
   });
 

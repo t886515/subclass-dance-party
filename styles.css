@@ -7,18 +7,43 @@ body{
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
-  color: lightblue;
+  color: pink;
 }
 .title, .addDancerButton{
   padding:5px 12px;
-  float:right;
+  float:left;
+  font-family: "Palatino Linotype", serif;
 }
 .topbar{
-  height:32px;
-  background-color: #555;
+  height:34px;
+  background-color: #ADD8E6;
 }
 .title{
-  background-color: #777;
+  background-color: #800000;
+  float: right;
+}
+
+.addDancerButton{
+  background-color: #34005B;
+}
+/*#blinkyButton{
+  background-color: #87cefa;
+  color: brown;
+}
+
+#mexicanButton{
+  background-color: #ffdab9;
+  color: black;
+}
+
+#randomButton{
+  background-color:#bc8f8f;
+  color: brown;
+}
+*/
+.mouse{
+  background-color: #ff69b4;
+  color: black;
 }
 
 /*.dancer{
@@ -37,9 +62,9 @@ body, a:link, a:visited, a:active{
 }
 
 .test{
-  border:25px solid blue;
+  border:15px solid blue;
   border-color: '#E6B0AA';
-  border-radius:100px;
+  border-radius:15px;
   position:absolute;
 }
 
@@ -53,4 +78,11 @@ body, a:link, a:visited, a:active{
     background-image:url('zeus.jpg');
     background-repeat:no-repeat;
     background-position:right bottom;
+}
+
+.expand{
+  border:25px;
+  border-color: '#E6B0AA';
+  border-radius:25px;
+  position:absolute;
 }

@@ -29,6 +29,20 @@ $(document).ready(function() {
     );
     $('body').append(dancer.$node);
   });
-  
-});
 
+  $('body').on('click', function(event) {
+    var color = ['#F9EBEA', '#F2D7D5', '#E6B0AA', '#D98880', '#CD6155', '#C0392B', '#C39BD3', '#AF7AC5'];
+  	var randomColor = color[Math.floor(Math.random() * color.length)];
+    $(this).css('background-color', randomColor);
+  });
+
+  $('.addDancerButton').on('mouseover', function(event) {
+    
+    $(this).toggleClass('mouse');
+  });
+  $('.addDancerButton').on('mouseout', function(event) {
+    
+    $(this).toggleClass('mouse');
+  });
+
+});
